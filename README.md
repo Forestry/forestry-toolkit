@@ -1,16 +1,29 @@
-Background
----------------
+README for QGIS 
 
-This project came out of need for forestry-related tools on open source mapping platforms.  To learn more about the group see the wiki page: 
+ABOUT FORESTRY TOOLKIT FOR QUANTUM GIS
 
-http://wiki.osgeo.org/wiki/Forestry_Tools
+Forestry Toolkit is a plugin for Quantum GIS (QGIS) which is an Open Source GIS. The project was born in 2012 out of the QGIS-users mailing list. The plugin is currently on a starting block. It's currently developed using Python (www.python.org and PyQt) and Qt toolkit(http://qt.digia.com). The plugin is based on graphical user interface. Its aims is to provide to forest managers and planners a well designed interface for analysing forest inventory data. For details click here [http://wiki.osgeo.org/wiki/Forestry_Tools].
 
-The original intent is to create database schemas for holding sampling data along with spatially related datasets and making them available as a plugin for Quantum GIS.
+Forestry Toolkit plugin for QGIS design is based on commonly used forestry methdologies. It allows data input, analysis and reporting. For details click here [http://wiki.osgeo.org/wiki/Forestry_Tools].
 
-Contributing
-------------
+Forestry Toolkit plugin is released under the GNU Public License (GPL) Version v3. 
 
-External contributors are always welcome.  Clone this repository, make your changes locally, and then initiate a Pull Request.  This will flag your changes back to the original repository and managers can integrate your changes where appropriate.  Be sure to always pull the latest changes before trying to commit yours back.
- 
- 
-_More to come..._
+YOUR THOUGHTS CAN HELP US
+
+For any bug, please send your report to:https://github.com/Forestry/forestry-toolkit
+
+or by email to forestrytools@lists.osgeo.org
+  
+
+CONTRIBUTION FRAMEWORK
+
+Forestry Toolkit plugin for QGIS is set on a GitHub : https://github.com/Forestry/forestry-toolkit
+
+For a code or documentation contribution, please, create your own repository and make a clone of the project and commit to your proper repository. Send a request to the core development team. Once your code is reviewed, the core team can commit it to the appropriate upstream as needed. 
+
+The Core developpement team is composed of :
+
+Lee Mueller (MuellerL@gmail.com)
+Abdoul Ousmane Dia
+Tyler Mitchell
+
