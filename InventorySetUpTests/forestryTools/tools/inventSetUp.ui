@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inventSetUp</class>
+ <widget class="QDialog" name="inventSetUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>372</width>
+    <height>248</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lab_cmbFieldIn">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>64</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Use input join field</string>
+   </property>
+   <property name="buddy">
+    <cstring>cmbFieldIn</cstring>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbFieldIn">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>246</x>
+     <y>60</y>
+     <width>118</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lab_inputFileCSV">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>90</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Load CSV file</string>
+   </property>
+   <property name="buddy">
+    <cstring>inputFileCSV</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lab_inputShape">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>7</y>
+     <width>110</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Input shapefile</string>
+   </property>
+   <property name="buddy">
+    <cstring>inputShape</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lab_cmbFieldTarget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>147</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Use join target field</string>
+   </property>
+   <property name="buddy">
+    <cstring>cmbFieldTarget</cstring>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="inputShape">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>355</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbFieldTarget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>143</y>
+     <width>118</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>351</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="csv_layout">
+    <item>
+     <widget class="QLineEdit" name="inputFileCSV">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="BrowseCSV">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="joinFields">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>190</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;Join</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>262</x>
+     <y>190</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>192</y>
+     <width>140</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="textVisible">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inputShape</tabstop>
+  <tabstop>cmbFieldIn</tabstop>
+  <tabstop>BrowseCSV</tabstop>
+  <tabstop>cmbFieldTarget</tabstop>
+  <tabstop>cancel</tabstop>
+  <tabstop>joinFields</tabstop>
+  <tabstop>inputFileCSV</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

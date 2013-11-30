@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/forestrytools" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
